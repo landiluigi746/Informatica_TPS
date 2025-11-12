@@ -1,0 +1,14 @@
+.
+└── Garage/
+    └── Automobile/
+        ├── Nome
+        ├── Marca
+        ├── Cilindrata
+        ├── Prezzo
+        ├── Valuta
+        ├── Dimensioni/
+        │   ├── Altezza
+        │   ├── Larghezza
+        │   ├── Lunghezza
+        │   └── RaggioRuote
+        └── TipoMotore

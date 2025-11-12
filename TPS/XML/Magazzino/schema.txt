@@ -1,0 +1,8 @@
+.
+└── Magazzino/
+    └── Prodotto/
+        ├── ID
+        ├── Articolo
+        ├── Prezzo
+        ├── Valuta
+        └── Rimanenza
