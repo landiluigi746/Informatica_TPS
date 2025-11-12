@@ -19,6 +19,7 @@ Nel caso di progetti C/C++ con più file è presente un Makefile per compilare.
 ### [TPS](/Informatica_TPS/TPS)
 
 - [PizzeriaHTML](/Informatica_TPS/TPS/PizzeriaHTML) - [See source code](https://github.com/landiluigi746/Informatica_TPS/tree/master/TPS/PizzeriaHTML)
+- [PizzeriaHTML](/Informatica_TPS/TPS/XML) - [See source code](https://github.com/landiluigi746/Informatica_TPS/tree/master/TPS/XML)
 
 ## Licenza
 
