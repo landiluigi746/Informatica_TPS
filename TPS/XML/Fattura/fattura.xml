@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<fattura valuta="EUR">
+    <intestazione>
+        <numero_fattura>FT2024-00156</numero_fattura>
+        <data_emissione>2024-03-15</data_emissione>
+        <mittente>
+            <ragione_sociale>TechSolution S.r.l.</ragione_sociale>
+            <partita_iva>IT12345678901</partita_iva>
+            <indirizzo>
+                <via>Via Roma 123</via>
+                <cap>20121</cap>
+                <citta>Milano</citta>
+                <provincia>MI</provincia>
+            </indirizzo>
+            <destinatario>
+                <ragione_sociale>Global Business S.p.A.</ragione_sociale>
+                <codice_fiscale>GLBBSA98M12F205X</codice_fiscale>
+                <indirizzo>
+                    <via>Corso Italia 45</via>
+                    <cap>00100</cap>
+                    <citta>Roma</citta>
+                    <provincia>RM</provincia>
+                </indirizzo>
+            </destinatario>
+        </mittente>
+    </intestazione>
+    <corpo>
+        <articoli>
+            <articolo tipo="servizio">
+                <codice>SVC001</codice>
+                <descrizione>Consulenza IT Specialist - 10 ore</descrizione>
+                <quantita>1</quantita>
+                <prezzo_unitario>120.00</prezzo_unitario>
+                <iva_percentuale>22</iva_percentuale>
+                <totale_riga>146.40</totale_riga>
+            </articolo>
+            <articolo tipo="prodotto">
+                <codice>HW456</codice>
+                <descrizione>Monitor LED 24" Full HD</descrizione>
+                <quantita>2</quantita>
+                <prezzo_unitario>189.00</prezzo_unitario>
+                <iva_percentuale>22</iva_percentuale>
+                <totale_riga>461.16</totale_riga>
+            </articolo>
+            <articolo tipo="servizio">
+                <codice>SVC002</codice>
+                <descrizione>Manutenzione Software Annuale</descrizione>
+                <quantita>1</quantita>
+                <prezzo_unitario>350.00</prezzo_unitario>
+                <iva_percentuale>22</iva_percentuale>
+                <totale_riga>427.00</totale_riga>
+            </articolo>
+        </articoli>
+    </corpo>
+    <metodo_pagamento>
+        <tipo>bonifico</tipo>
+        <scadenza>2024-04-15</scadenza>
+    </metodo_pagamento>
+    <piede>
+        <imponibile>848.00</imponibile>
+        <totale_iva>186.56</totale_iva>
+        <totale_fattura>1034.56</totale_fattura>
+    </piede>
+</fattura>

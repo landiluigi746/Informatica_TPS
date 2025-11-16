@@ -1,0 +1,37 @@
+.
+└── fattura/
+    ├── intestazione/
+    │   ├── numero_fattura
+    │   ├── data_emissione
+    │   ├── mittente/
+    │   │   ├── ragione_sociale
+    │   │   ├── partita_iva
+    │   │   └── indirizzo/
+    │   │       ├── via
+    │   │       ├── cap
+    │   │       ├── citta
+    │   │       └── provincia
+    │   └── destinatario/
+    │       ├── ragione_sociale
+    │       ├── codice_fiscale
+    │       └── indirizzo/
+    │           ├── via
+    │           ├── cap
+    │           ├── citta
+    │           └── provincia
+    ├── corpo/
+    │   └── articoli/
+    │       └── articolo/
+    │           ├── codice
+    │           ├── descrizione
+    │           ├── quantita
+    │           ├── prezzo_unitario
+    │           ├── iva_percentuale
+    │           └── totale_riga
+    ├── metodo_pagamento/
+    │   ├── tipo
+    │   └── scadenza
+    └── piede/
+        ├── imponibile
+        ├── totale_iva
+        └── totale_fattura
